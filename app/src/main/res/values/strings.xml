@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Pedidos</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="topping">TOPPING</string>
+    <string name="whipped_cream">Whipped Cream</string>
+    <string name="chocolate">Chocolate</string>
+    <string name="quantity">QUANTITY</string>
+    <string name="order_summary">ORDER SUMMARY</string>
+    <string name="order">ORDER</string>
+    <string name="with_chocolate">" with chocolate"</string>
+    <string name="with_whipped_cream">" with whipped cream"</string>
+    <string name="and">" and"</string>
+    <string name="total_price_text">"Total price is "</string>
+    <string name="you_ordered_text">", You ordered "</string>
+    <string name="coffees_text">" coffees"</string>
+    <string name="enter_your_email_address">Enter your Email Address</string>
+</resources>
