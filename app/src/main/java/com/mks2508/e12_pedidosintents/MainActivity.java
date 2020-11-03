@@ -59,6 +59,8 @@ public class MainActivity extends AppCompatActivity {
 
         String text_quantity = name + getString(R.string.you_ordered_text) + quantity + getString(R.string.coffees_text);
         String text_mail = "Tu email es: " + email;
+
+
         CheckBox whippedcreamcheckbox = findViewById(R.id.check_whipped_cream);
         boolean whippedcreamchecked = whippedcreamcheckbox.isChecked();
 
@@ -78,10 +80,12 @@ public class MainActivity extends AppCompatActivity {
 
         double totalprice = unitprice * quantity;
         String text_price = getString(R.string.total_price_text) + totalprice + " €";
-        String totalText = text_quantity + "\n" + text_price + "\n" + text_mail;
+        String totalText = text_quantity + "\n" + text_price + "\n";
         //email
         Intent intent = new Intent(this, ShowText.class);
-        intent.putExtra("texto", totalText);
+        intent.putExtra("totalText", totalText);
+        intent.putExtra("mailText", text_mail);
+        intent.putExtra("email", email);
         startActivity(intent);
 
     }

@@ -14,4 +14,9 @@
     <string name="you_ordered_text">", You ordered "</string>
     <string name="coffees_text">" coffees"</string>
     <string name="enter_your_email_address">Enter your Email Address</string>
+    <string name="minus">-</string>
+    <string name="plus">+</string>
+    <string name="es_correcto">¿Es correcto?</string>
+    <string name="yes">SI</string>
+    <string name="no">NO</string>
 </resources>

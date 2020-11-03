@@ -78,12 +78,12 @@
 
     <Button
         android:id="@+id/btn_minus"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
+        android:layout_width="@dimen/defaultWb"
+        android:layout_height="@dimen/defaultHb"
         android:layout_gravity="center"
         android:layout_marginEnd="@dimen/default_margin"
         android:paddingTop="4dp"
-        android:text="-"
+        android:text="@string/minus"
         app:layout_constraintBottom_toBottomOf="@id/textView_count"
         app:layout_constraintRight_toLeftOf="@id/textView_count"
         android:onClick="decrement"/>
@@ -92,7 +92,7 @@
         android:id="@+id/textView_count"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingBottom="12dp"
+        android:paddingBottom="@dimen/padding"
         android:text="2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -101,12 +101,12 @@
 
     <Button
         android:id="@+id/btn_plus"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
+        android:layout_width="@dimen/defaultWb"
+        android:layout_height="@dimen/defaultHb"
         android:layout_gravity="center"
         android:layout_marginStart="@dimen/default_margin"
         android:paddingTop="4dp"
-        android:text="+"
+        android:text="@string/plus"
         app:layout_constraintBottom_toBottomOf="@id/textView_count"
         app:layout_constraintLeft_toRightOf="@id/textView_count"
         android:onClick="increment"/>

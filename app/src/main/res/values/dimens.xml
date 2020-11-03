@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="default_margin">8dp</dimen>
+    <dimen name="defaultWb">40dp</dimen>
+    <dimen name="defaultHb">40dp</dimen>
+    <dimen name="padding">12dp</dimen>
+    <dimen name="marginCorrect">100dp</dimen>
+    <dimen name="wB">80dp</dimen>
+    <dimen name="hB">40dp</dimen>
+    <dimen name="marginLeft">80dp</dimen>
+    <dimen name="marginB">76dp</dimen>
+    <dimen name="paddTop">4dp</dimen>
+    <dimen name="marginR">80dp</dimen>
 </resources>
